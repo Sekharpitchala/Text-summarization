@@ -3,6 +3,7 @@ numpy
 matplotlib
 transformers
 scikit-learn
+TensorRT
 pipeline
 tf-keras
 torch
