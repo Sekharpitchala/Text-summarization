@@ -2,7 +2,7 @@ Flask
 numpy
 matplotlib
 transformers
-sklearn
+scikit-learn
 pipeline
 tensorflow
 pytorch
