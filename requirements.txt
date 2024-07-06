@@ -5,6 +5,6 @@ transformers
 scikit-learn
 pipeline
 TensorFlow
-keras
+tf-keras
 torch
 gunicorn
