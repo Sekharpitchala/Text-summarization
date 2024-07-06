@@ -1,0 +1,10 @@
+Flask
+numpy
+matplotlib
+transformers
+sklearn
+pipeline
+tensorflow
+pytorch
+gunicorn
+scikit-learn

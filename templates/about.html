@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>About</h1>
+    <p>Text summerization using Transformers</p>
+    <div>
+        <h2><b>TOOLS USED</b></h2>
+        <p>Flask,Transformer Libraries,Scikit Learn,Matplotlib</p>
+        <p>Flask:
+
+            Flask is a micro web framework written in Python. It is used to handle web requests, route URLs, and render templates.
+            flask library is used to create the web application, handle requests, and manage the application's routes.
+            Transformers 
+            <p>(Hugging Face):
+            
+            The transformers library from Hugging Face provides state-of-the-art pre-trained models for various natural language processing (NLP) tasks, including text summarization.
+            pipeline("summarization") is used to initialize a pre-trained text summarization model.</p>
+            <p>Scikit-learn:
+            
+            sklearn (Scikit-learn) is a machine learning library for Python. It is used for data analysis and machine learning tasks.
+            TfidfVectorizer is used to convert text data into TF-IDF vectors.
+            cosine_similarity is used to calculate the similarity between two pieces of text based on their TF-IDF vectors.</p>
+            <p>Matplotlib:
+            
+            matplotlib is a plotting library for Python. It is used to create static, interactive, and animated visualizations in Python.
+            Used to create bar and scatter plots for visualizing the similarity scores between the original and summarized text.</p>
+            <h3><cenetr>Hugging Face Transformer Libraries</center?></h3>
+            <img src="{{ url_for('static', filename='h.jpg') }}" alt="Image 1">
+            <h1>pipeline</h1>
+            <p>pipeline is a high-level, user-friendly API designed to streamline the use of pre-trained models for various natural language processing (NLP) tasks. It abstracts the complexity of handling different models, tokenizers, and inference processes, allowing users to focus on applying the models rather than dealing with the underlying details.</p>
+            <h3>Key Features</h3>
+            <h4>1.Simplifies Model Usage</h4>
+            <h4>2.Supports Multiple Tasks</h4>
+            <h4>3.Automatic Handling</h4>
+    </div>
+</div>
+{% endblock %}

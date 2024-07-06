@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="result-container">
+    <h1>Analysis Results</h1>
+    <h2>Original Text:</h2>
+    <p>{{ original_text }}</p>
+    <h2>Summarized Text:</h2>
+    <p>{{ summarized_text }}</p>
+    <h2>Similarity Score:</h2>
+    <p>{{ similarity_score }}</p>
+    {% if plot_data %}
+        <div class="plot-container">
+            <h3>Plot:</h3>
+            <img src="data:image/png;base64,{{ plot_data }}" alt="Similarity Plot">
+        </div>
+    {% endif %}
+    <form action="{{ url_for('download') }}" method="post">
+        <input type="hidden" name="original_text" value="{{ original_text }}">
+        <input type="hidden" name="summarized_text" value="{{ summarized_text }}">
+        <input type="hidden" name="similarity_score" value="{{ similarity_score }}">
+        <input type="hidden" name="plot_data" value="{{ plot_data }}">
+        <button type="submit">Download Results</button>
+    </form>
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</div>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Contact Us</h1>
+    <div class="contact-list">
+        <div class="contact-item">
+            <img src="{{ url_for('static', filename='s.jpg') }}" alt="Image 1">
+            <h3>Srinivas Valavala</h3>
+            <p>Email: srinivasvalavala4441@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="{{ url_for('static', filename='sekhar.jpg') }}" alt="Image 2">
+            <h3>Sekhar Pitchala</h3>
+            <p>Email: sekharpitchala2003@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="{{ url_for('static', filename='hepsi.jpg') }}" alt="Image 3">
+            <h3>Hepsiba Valaji</h3>
+            <p>Email: hepsibavalajimay@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="{{ url_for('static', filename='sonu.jpg') }}" alt="Image 4">
+            <h3>Varshini Yennabathula</h3>
+            <p>Email: varshinisonu2@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="{{ url_for('static', filename='santhu.jpg') }}" alt="Image 5">
+            <h3>Sri Santhoshi Prathipati</h3>
+            <p>Email: santhoshiprathipati@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="{{ url_for('static', filename='lahari.jpg') }}" alt="Image 6">
+            <h3>Bhimanadham Lakshmi Lahari</h3>
+            <p>Email: blahari414@gmail.com </p>
+        </div>
+        <div class="contact-item">
+            <img src="{{ url_for('static', filename='madhu.jpg') }}" alt="Image 7">
+            <h3>Ganta Madhu Prakash Babu</h3>
+            <p>Email: madhuprakash555@gmail.com</p>
+        </div>
+    </div>
+    
+    <!-- Email Form Integration -->
+    <div class="email-form-container">
+        <h2>Send Us a Message</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" id="emailForm">
+            <input type="hidden" name="access_key" value="604074b1-a32b-479f-b39a-42aa9434c2e9">
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="subject" name="name" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Email</button>
+        </form>
+        <div id="status"></div>
+    </div>
+</div>
+{% endblock %}
