@@ -7,4 +7,3 @@ pipeline
 tensorflow
 pytorch
 gunicorn
-scikit-learn
