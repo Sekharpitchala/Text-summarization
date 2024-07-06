@@ -4,7 +4,6 @@ matplotlib
 transformers
 scikit-learn
 pipeline
-TensorFlow
 tf-keras
 torch
 gunicorn
