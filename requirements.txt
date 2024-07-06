@@ -8,3 +8,4 @@ TensorFlow
 tf-keras
 torch
 gunicorn
+requests
