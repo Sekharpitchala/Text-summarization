@@ -1,4 +1,4 @@
-# Text-summarization
+# Text-summarization using pipeline function 
 
 # Description:
 
