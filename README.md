@@ -2,12 +2,12 @@
 
 # Description:
 
-This repository presents a Python-based text summarization pipeline utilizing the [Pipeline Library Name] library and the pre-trained [Summarization Model Name] model. The pipeline is designed to efficiently condense long text documents into concise and informative summaries while preserving key information.
+This repository presents a Python-based text summarization pipeline utilizing the [Pipeline Function] library and the pre-trained NLP model. The pipeline is designed to efficiently condense long text documents into concise and informative summaries while preserving key information.
 
 # Key Features:
 
 Modular Pipeline: The pipeline architecture is modular, allowing for easy customization and integration with other NLP tasks.
-State-of-the-Art Model: The [Summarization Model Name] model is a leading choice for text summarization, known for its accuracy and robustness.
+State-of-the-Art Model: The NLP model is a leading choice for text summarization, known for its accuracy and robustness.
 Parameter Tuning: The pipeline offers flexibility in adjusting parameters like maximum summary length, language, and model weights to tailor the output to specific requirements.
 User-Friendly Interface: The pipeline provides a simple API, making it accessible to developers and non-experts alike.
 
@@ -16,7 +16,7 @@ User-Friendly Interface: The pipeline provides a simple API, making it accessibl
 
 #Installation:
   Bash
-  pip install [Required Libraries]
+  pip install [NLP, PIPELINE FUNCTION]
   Use code with caution.
 
 # Import:
