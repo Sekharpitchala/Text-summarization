@@ -13,6 +13,18 @@ This project implements **automatic text summarization** using the Hugging Face 
 - ✂️ Condenses large texts while preserving the **main meaning**
 - 🔁 **Customizable output length** with parameters like `min_length` and `max_length`
 
+
+## 🛠️ Technologies Used
+
+| Category           | Technologies Used                                                  |
+|--------------------|--------------------------------------------------------------------|
+| Programming        | Python 3.7+                                                        |
+| Libraries          | `transformers`, `torch`, `sentencepiece`                           |
+| NLP Models         | `facebook/bart-large-cnn`, `t5-base`, `google/pegasus-cnn_dailymail` |
+| Optional Web UI    | Flask                                                              |
+| ML Utilities       | Pandas, NumPy (for integration/evaluation)                         |
+
+
 ## 🤝 Contributing
 We welcome contributions from the community!
 Please read the CONTRIBUTING.md file for guidelines on how to get started.
@@ -25,18 +37,6 @@ For more details, visit: https://citdindia.org/index.php
 Pitchala Sekhar
 🔗 GitHub: Sekharpitchala
 📧 Email: sekharpitchala2003@gmail.com
-
-
-## 🛠️ Technologies Used
-
-| Category           | Technologies Used                                                  |
-|--------------------|--------------------------------------------------------------------|
-| Programming        | Python 3.7+                                                        |
-| Libraries          | `transformers`, `torch`, `sentencepiece`                           |
-| NLP Models         | `facebook/bart-large-cnn`, `t5-base`, `google/pegasus-cnn_dailymail` |
-| Optional Web UI    | Flask                                                              |
-| ML Utilities       | Pandas, NumPy (for integration/evaluation)                         |
-
 
 
 ## 💡 Sample Code (Summarizer Script)
