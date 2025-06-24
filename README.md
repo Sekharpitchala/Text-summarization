@@ -75,11 +75,8 @@ Start the server:
 python app.py
 
 ## Open your browser and visit:
-http://127.0.0.1:5000/
 Paste or enter your text.
-
 Click the "Summarize" button.
-
 View your output summary directly on the page.
 
 ## 📋 Example Input & Output
@@ -105,28 +102,15 @@ text-summarization-pipeline/
 ├── README.md              # Project documentation (this file)
 └── .gitignore             # Git ignore rules
 
-## 📜 License
-This project is licensed under the MIT License.
+## 🤝 Contributing
+We welcome contributions from the community!
+Please read the CONTRIBUTING.md file for guidelines on how to get started.
 
-## 👨‍💻 Author Information
-Developer: Pitchala Sekhar
-GitHub: https://github.com/Sekharpitchala
-Email: sekharpitchala2003@gmail.com 
+## 📄 License
+This project is licensed under the CITD-MSME license.
+For more details, visit: https://citdindia.org/index.php
 
-## 🙋 Contributions
-Contributions are welcome!
-If you'd like to enhance this project, follow these steps:
-Let me know if you want me to:
-- Generate the `requirements.txt` for you
-- Package this as a downloadable `.zip` template
-- Set up a `.gitignore` file for this project
-
-I’m here to help you make it ready for GitHub or presentation!
-
-Create a new branch (git checkout -b feature/YourFeature)
-
-Commit your changes (git commit -m 'Added new feature')
-
-Push to the branch (git push origin feature/YourFeature)
-
-Submit a Pull Request
+## 👨‍💻 Author
+Pitchala Sekhar
+🔗 GitHub: Sekharpitchala
+📧 Email: sekharpitchala2003@gmail.com
