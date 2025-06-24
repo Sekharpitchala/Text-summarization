@@ -13,7 +13,19 @@ This project implements **automatic text summarization** using the Hugging Face 
 - ✂️ Condenses large texts while preserving the **main meaning**
 - 🔁 **Customizable output length** with parameters like `min_length` and `max_length`
 
----
+## 🤝 Contributing
+We welcome contributions from the community!
+Please read the CONTRIBUTING.md file for guidelines on how to get started.
+
+## 📄 License
+This project is licensed under the CITD-MSME license.
+For more details, visit: https://citdindia.org/index.php
+
+## 👨‍💻 Author
+Pitchala Sekhar
+🔗 GitHub: Sekharpitchala
+📧 Email: sekharpitchala2003@gmail.com
+
 
 ## 🛠️ Technologies Used
 
@@ -101,16 +113,3 @@ text-summarization-pipeline/
 ├── requirements.txt       # All required Python libraries
 ├── README.md              # Project documentation (this file)
 └── .gitignore             # Git ignore rules
-
-## 🤝 Contributing
-We welcome contributions from the community!
-Please read the CONTRIBUTING.md file for guidelines on how to get started.
-
-## 📄 License
-This project is licensed under the CITD-MSME license.
-For more details, visit: https://citdindia.org/index.php
-
-## 👨‍💻 Author
-Pitchala Sekhar
-🔗 GitHub: Sekharpitchala
-📧 Email: sekharpitchala2003@gmail.com
