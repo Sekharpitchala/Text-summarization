@@ -1,8 +1,44 @@
-# Text-summarization using pipeline function 
+## 📝 Text Summarization using Pipeline Function
 
-# Description:
+This project implements **automatic text summarization** using the Hugging Face `pipeline` API. It simplifies lengthy text documents into short, meaningful summaries using state-of-the-art NLP models.
 
-This repository presents a Python-based text summarization pipeline utilizing the [Pipeline Function] library and the pre-trained NLP model. The pipeline is designed to efficiently condense long text documents into concise and informative summaries while preserving key information.
+## 🚀 Features
+
+- Extractive and abstractive summarization
+- Uses **Hugging Face Transformers**
+- Easy-to-use summarization via the `pipeline` function
+- Web UI integration with Flask (optional)
+- Input: Long text or paragraph
+- Output: Condensed summary retaining core meaning
+
+
+
+## 🛠️ Technologies Used
+
+- **Language**: Python
+- **Library**: Hugging Face Transformers
+- **Models**: `facebook/bart-large-cnn`, `t5-base`, or any compatible summarization model
+- **Optional Web UI**: Flask (Python)
+- **Others**: `torch`, `transformers`, `sentencepiece`
+
+
+
+## 💡 Sample Code
+
+```python
+from transformers import pipeline
+
+# Load summarization pipeline
+summarizer = pipeline("summarization")
+
+# Input text
+text = """The history of Hyderabad is fascinating and rich with culture. 
+It was founded in 1591 by Muhammad Quli Qutb Shah. Later, it became part of the Nizam's rule. 
+The city was famous for its pearl and diamond trading centers. Today, it is one of the fastest-growing IT hubs in India."""
+
+# Get summary
+summary = summarizer(text, max_length=50, min_length=25, do_sample=False)
+print("Summary:", summary[0]['summary_text'])
 
 # Key Features:
 
@@ -15,7 +51,6 @@ User-Friendly Interface: The pipeline provides a simple API, making it accessibl
 # Usage:
 
 #Installation:
-  Bash
   pip install [NLP, PIPELINE FUNCTION]
   Use code with caution.
 
@@ -40,6 +75,11 @@ Model Weights: Experiment with different model weights to fine-tune the summariz
 
 We welcome contributions from the community. Please refer to the CONTRIBUTING.md file for guidelines.
 
-# License:
+## License:
 
-This project is licensed under the  license. See the LICENSE file for more details.
+This project is licensed under the  CITD-MSME (https://citdindia.org/index.php)
+
+## 👨‍💻 Author
+Pitchala Sekhar
+GitHub: [Sekharpitchala](https://github.com/Sekharpitchala)
+Email: sekharpitchala2003@gmail.com 
